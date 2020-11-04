@@ -1,0 +1,13 @@
+---
+xueqiu:
+  username: xxxx
+  password: dddd
+appium:
+  app: ""
+  url: http://127.0.0.1:4723/wd/hub
+  wait: 6
+  capabilities:
+    platformName: android
+    deviceName: ELE-AL00
+    appPackage: com.xueqiu.android
+    appActivity: .view.WelcomeActivityAlias
